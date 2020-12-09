@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+### `Clone the project`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+inside a directory of your choice clone the project using either HTTPS or SSL
 
-## Available Scripts
+### `Install Dependencies`
 
-In the project directory, you can run:
+run `npm install` or ` yarn install`
 
-### `yarn start`
+### `Get your ApiKey `
 
-Runs the app in the development mode.\
+Go to [Get ApiKey](https://newsapi.org/)
+inside the `src/Config/config.js` file set your ApiKey and save .
+
+### `Run the App`
+
+run `npm start` or ` yarn start` in order to Run the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `Create an User`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create an User by Clicking Register Link (One User created , In case of Creating a New User The Previous One will be deleted and changed with the new User )
 
-### `yarn build`
+### `Browsing the App`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once you are connected You will be redirected to the Main page and you can see the articles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[top Headlines](http://localhost:3000/topHeadlines)
+`this page showing the top articles based on a keyword , you can edit that keyword through this file src/Environnement/environnement.js`
+`Note the keyword used here is not from user preferences `
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[customs Articles](http://localhost:3000/customsArticles)
+`Custom news based on user preferences (user must be presented with keyword selection from bitcoin, Apple, earthquake, animal. User can only choose one keyword) `
 
-### `yarn eject`
+[Article Detail](http://localhost:3000/)
+`this page showing the article deatils , you can access this page after clicking the Read more Button `
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[errorPage](http://localhost:3000/anyInvalidRoute)
+`if there is no route that match the existing routes an ErrorPage is shown`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Profile](http://localhost:3000/Profile)
+`You can update the user data through this page `
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Register](http://localhost:3000/register)
+`You can Create a new user via this page `
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Login](http://localhost:3000/login)
+`You can Login to the App via this page `
