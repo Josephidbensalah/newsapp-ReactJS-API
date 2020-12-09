@@ -1,0 +1,1 @@
+export const NEWS_KEY = "Place_Your_ApiKey_Here";

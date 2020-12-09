@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Routes from './Routes'
+import ErrorBoundary from './ErrorHandling/ErrorBoundary'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ErrorBoundary>
+      <Routes />
+    </ErrorBoundary>
   </React.StrictMode>,
   document.getElementById('root')
 );
